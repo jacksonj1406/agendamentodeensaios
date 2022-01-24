@@ -1,5 +1,5 @@
 from qt_core import *
-from controlle.main_window import*
+from controller.main_window import *
 
 class cad_cliente (QWidget):
     def salvar(self):
