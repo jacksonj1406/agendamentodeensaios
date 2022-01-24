@@ -9,4 +9,4 @@ class MainWindow(QMainWindow):
 
 
        
-        self.clientes= clientes()
+        

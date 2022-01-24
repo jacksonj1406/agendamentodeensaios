@@ -1,5 +1,5 @@
 from qt_core import *
-from controlle.main_window import MainWindow
+from controller.main_window import MainWindow
 
 app = QApplication(sys.argv)
 

@@ -1,7 +1,4 @@
-# Padrão DAO (Data Access Object)
-# Centraliza o acesso aos dados dos objetos cliente
 
-# lista que irá armazenar todos os clientes do sistema
 lista_clientes = []
 
 
