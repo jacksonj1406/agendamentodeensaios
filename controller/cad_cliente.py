@@ -10,6 +10,7 @@ class clientes (QWidget):
     def __init__(self):
         super().__init__()
         uic.loadUi(FILE_UI, self)
+        
 
        
 
