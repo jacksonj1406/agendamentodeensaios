@@ -1,15 +1,20 @@
 from qt_core import *
 from controller.main_window import *
+from model.clientes import Clientes
 
-class cad_cliente (QWidget):
-    def salvar(self):
-        nome = self.nome.text()
-        telefone = self.telefone.text()
+FILE_UI = 'view/cad_cliente.ui'        
 
-class clientes (QWidget):
-    def __init__(self):
+class novo_cadastreoWindow(QWidget):
+    def __init__(self,janera_MainWindow):
         super().__init__()
         uic.loadUi(FILE_UI, self)
+
+        self.janela_MainWindow = janera_MainWindow
+        
+        self.cadastrese_btn.clicked.connect(self.cadastrese)
+        self.Lista_de_ensaio_btn.clicked.connect(self.Lista_de_ensaio)
+
+
         
 
        
