@@ -1,6 +1,8 @@
 from qt_core import *
 from controller.main_window import *
 from model.clientes import Clientes
+ 
+ 
 
 FILE_UI = 'view/cad_cliente.ui'        
 
