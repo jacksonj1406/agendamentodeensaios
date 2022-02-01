@@ -15,5 +15,5 @@ class MainWindow(QMainWindow):
 
         self.cadastrese_btn.clicked.connect(self.show_cadastrese)
     
-    def show_cadastrese(self):  # apresentar a tela de resumo no painel_principal
+    def show_cadastrese(self):
         self.painel_principal.setCurrentIndex(0)    
