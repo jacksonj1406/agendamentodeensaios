@@ -11,9 +11,9 @@ class MainWindow(QMainWindow):
 
         self.cadastre_se = cadastrese()
         
-        self.painel_principal.insertWidget(0, self.cadastre_se)
+        self.MainWindow.insertWidget(0, self.cadastre_se)
 
         self.cadastrese_btn.clicked.connect(self.show_cadastrese)
     
     def show_cadastrese(self):
-        self.painel_principal.setCurrentIndex(0)    
+        self.MainWindow.setCurrentIndex(0)    
