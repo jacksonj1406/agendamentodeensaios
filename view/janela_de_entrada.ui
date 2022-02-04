@@ -17,7 +17,7 @@
    <string notr="true">background-color: rgb(57, 57, 57);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="cadastrese_btn">
     <property name="geometry">
      <rect>
       <x>130</x>
@@ -59,7 +59,7 @@
      <string>Lista de ensaio</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>90</x>

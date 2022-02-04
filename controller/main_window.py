@@ -6,14 +6,17 @@ FILE_UI = "view/janela_de_entrada.ui"
 
 class MainWindow(QMainWindow):
     def __init__(self):
-        super().__init__()
+        super().__init__(None)
         uic.loadUi(FILE_UI, self)
-
-        self.cadastre_se = cadastrese()
-        
-        self.janela_de_entrada.insertWidget(0, self.cadastre_se)
-
+        self.novo_cadastro=None
+ 
         self.cadastrese_btn.clicked.connect(self.show_cadastrese)
+
+    
     
     def show_cadastrese(self):
-        self.janela_de_entrada.setCurrentIndex(0)    
+        self.janela_de_entrada.setCurrentIndex(0) 
+
+       
+
+        self.novo_cadastro.show() 
