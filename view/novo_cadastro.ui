@@ -13,7 +13,6 @@
   <property name="font">
    <font>
     <family>Arial Black</family>
-    <pointsize>11</pointsize>
    </font>
   </property>
   <property name="windowTitle">
@@ -44,7 +43,7 @@
     <string>Novo Cadastro </string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="Salvar">
    <property name="geometry">
     <rect>
      <x>230</x>
@@ -60,7 +59,7 @@
     <string>Salvar</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="cancerlar">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -69,6 +68,12 @@
      <height>23</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
@@ -76,7 +81,7 @@
     <string>cancerlar</string>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>80</x>
@@ -110,7 +115,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>80</x>
