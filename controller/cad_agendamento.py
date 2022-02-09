@@ -1,5 +1,5 @@
 from threading import local
-from  model.agendamento_dao import agendamento
+from  model.agendamento_dao import *
 from qt_core import*
 from model.agendamento_dao import agendamento_dao
 
@@ -21,5 +21,13 @@ class agendamentoWindow(QWidget):
         Horario = self.Horario.text()
         Local = self.Local.text()
 
+        
+        nova_agendamento =  agendamentoWindow (None, Data, Horario, Local)
+        agendamento_dao.adicionar( agendamentoWindow)
 
-         66
+     
+        self.janela_agendamento.carrega_dados()
+
+    
+        self.close()
+ 
