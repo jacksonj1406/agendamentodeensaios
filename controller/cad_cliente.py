@@ -6,7 +6,7 @@ from model.clientes import Clientes
 
 FILE_UI = 'view/cad_cliente.ui'        
 
-class novo_cadastreoWindow(QWidget):
+class novo_cadastro(QWidget):
     def __init__(self,janera_MainWindow):
         super().__init__()
         uic.loadUi(FILE_UI, self)

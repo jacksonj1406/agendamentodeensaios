@@ -14,10 +14,10 @@ class MainWindow(QMainWindow):
 
         self.novo_cadastro=None
  
-        self.cadastrese_btn.clicked.connect(self.show_cadastrese)
+        self.cadastrese_btn.clicked.connect(self.cadastrese)
 
     def show_cadastrese(self):
 
-        self.novo_cadastro=()
+        self.novo_cadastro=NovoCadastro()
 
         self.novo_cadastro.show() 
