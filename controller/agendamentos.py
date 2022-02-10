@@ -10,4 +10,10 @@ class agendamento(QWidget):
         uic.loadUi(FILE_UI, self)
 
         self.agentamento_window = None
-        self.carrega_dados()
+        self.carrega_dados() 
+        
+        self.Agendar_btn.clicked.connect(self.Agendar)
+
+        self.tabela.verticalHeader().setVisible(False)
+
+        
