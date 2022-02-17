@@ -18,6 +18,7 @@ class MainWindow(QMainWindow):
 
     def show_cadastrese(self):
 
-        self.novo_cadastro=NovoCadastro()
+        self.novo_cadastro=()
+    
 
         self.novo_cadastro.show() 

@@ -7,4 +7,4 @@ class agendamento():
         self.Local = Local
     
     def imprime(self):
-        print(f'{self.id}, {self.nome}, {self.telefone}')
+        print(f'{self.id}, {self.Data}, {self.Horario}, {self.Local}')

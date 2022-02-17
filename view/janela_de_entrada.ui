@@ -38,7 +38,7 @@
      <string>cadastre-se</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="Lista_de_ensaio">
     <property name="geometry">
      <rect>
       <x>120</x>

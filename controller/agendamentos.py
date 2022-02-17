@@ -13,7 +13,14 @@ class agendamento(QWidget):
         self.carrega_dados() 
         
         self.Agendar_btn.clicked.connect(self.Agendar)
+    
+    def Agendar(self):
+          
+        self.peca_window = agendamentoWindow(self)
+        self.peca_window.show()   
 
-        self.tabela.verticalHeader().setVisible(False)
-
-        
+    def carrega_dados(self):
+        lista = 'agendamento_dao' .lista_agendamento
+        self.tabela.setRowCount(0)
+        for p in lista:
+            self.add_linha(p)             
